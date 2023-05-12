@@ -1,0 +1,30 @@
+#################################
+# Random Access Machine Project # 
+#################################
+
+#Befehle#
+LDA x --> Lade den AC mit dem dem Inhalt von Speicheradresse x (done)
+LDI x --> Lade den AC indirekt mit dem Inhalt von Adresse x
+STA x --> Speichere den Inhalt des AC an Speicheradresse x (done)
+STI x --> Speichere den Inhalt des AC indirekt an Adresse x 
+ADD x --> Addiere den Inhalb von Adresse x zum AC (done)
+SUB x --> Subtrahiere den Inhalt von Adresse x vom AC (done)
+JMP x --> Springe zur mit x markierten Instruktion(Index) (done)
+JMZ x --> Springe zut mit x markierten Instruktion(Index), wenn der AC 0 enthält (done)
+HLT	  --> Halt (done)
+
+Indirekt --> Gehe an die Stelle des Arguments und Lese den Wert
+			 speichere an der Stelle des ausgelesenen Wertes
+
+#Was wird benötigt?#
+1 Klasse für das Memory + AC
+1 Klasse für die Befehle
+1 Hauptklasse für den Ablauf (Steuereinheit)
+
+#Memory# 
+Speichert den Index einer Ausführung (Befehl)
+Speichert den Index einer Zahl und ihren Wert
+
+
+
+
